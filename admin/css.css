@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+/*主要元素*/
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #EAFFDF;
+	SCROLLBAR-FACE-COLOR: #ffffff; FONT-SIZE: 12px; SCROLLBAR-HIGHLIGHT-COLOR: #0B9400; SCROLLBAR-SHADOW-COLOR: #0B9400; SCROLLBAR-3DLIGHT-COLOR: #0B9400; SCROLLBAR-ARROW-COLOR: #0B9400; SCROLLBAR-TRACK-COLOR: #0B9400; FONT-FAMILY: Verdana; SCROLLBAR-DARKSHADOW-COLOR: #0B9400;margin-left: 0px;margin-top: 0px;margin-right: 0px;margin-bottom: 0px;
+}
+body,td,th {
+	font-size: 12px;
+	color: #003300;
+}
+a {
+	font-size: 12px;
+	color: #006600;
+}
+a:link {
+	text-decoration: none;
+	color: #003300;
+}
+a:visited {
+	text-decoration: none;
+	color: #006600;
+}
+a:hover {
+	text-decoration: none;
+	color: #333333;
+}
+a:active {
+	text-decoration: none;
+	color: #006600;
+}
+/*表单*/
+.inputuser{
+font-family: verdana;border: 1px solid #0DB500;font-size: 12px; width:150px; height:22px; background-color:#FFFFFF; padding-top:4px; padding-left:5px
+}
+.inputuser-bor {
+font-family:verdana;font-size: 12px; width:150px; height:22px;background-color:#FFFFC8;
+border: 1px solid #FFFF00;padding-top:4px; padding-left:5px;
+}
+.button{
+font-family: verdana;border: 0px solid #A4A1BC;font-size: 12px; width:67px; height:26px; background-image:url(images/button.gif); background-repeat:no-repeat; text-align:center; padding-left:2px;
+}
+.button-bor {
+font-family: verdana;border: 0px solid #A4A1BC;font-size: 12px; width:67px; height:26px; background-image:url(images/button_act.gif); background-repeat:no-repeat; text-align:center;padding-left:2px;}
+/*调查录入滑动门*/
+OL LI {
+	MARGIN: 8px
+}
+#con {
+	FONT-SIZE: 12px; MARGIN: 0px auto; WIDTH: 100%;
+}
+#tags {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 10px; WIDTH: 98%; PADDING-TOP: 0px; HEIGHT: 23px;
+}
+#tags LI {
+	BACKGROUND: url(images/tagleft.gif) no-repeat left bottom; FLOAT: left; MARGIN-RIGHT: 1px; LIST-STYLE-TYPE: none; HEIGHT: 23px
+}
+#tags LI A {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND: url(images/tagright.gif) no-repeat right bottom; FLOAT: left; PADDING-BOTTOM: 0px; COLOR: #999; LINE-HEIGHT: 23px; PADDING-TOP: 0px; HEIGHT: 23px; TEXT-DECORATION: none
+}
+#tags LI.emptyTag {
+	BACKGROUND: none transparent scroll repeat 0% 0%; WIDTH: 4px
+}
+#tags LI.selectTag {
+	BACKGROUND-POSITION: left top; MARGIN-BOTTOM: -2px; POSITION: relative; HEIGHT: 25px
+}
+#tags LI.selectTag A {
+	BACKGROUND-POSITION: right top; COLOR: #000; LINE-HEIGHT: 25px; HEIGHT: 25px
+}
+#tagContent {
+	BORDER-RIGHT: #87FF8F 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #87FF8F 1px solid; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; BORDER-LEFT: #87FF8F 1px solid; PADDING-TOP: 1px; BORDER-BOTTOM: #87FF8F 1px solid; BACKGROUND-COLOR: #fff
+}
+.tagContent {
+	DISPLAY: none; BACKGROUND: url(images/bg.gif) repeat-x; PADDING-BOTTOM: 10px; WIDTH: 100%; COLOR: #474747; PADDING-TOP: 10px; height:auto; padding-left:10px; padding-right:10px;
+}
+#tagContent DIV.selectTag {
+	DISPLAY: block
+}
+/*翻页*/
+
+DIV.scott {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; MARGIN: 3px; PADDING-TOP: 3px; TEXT-ALIGN: center
+}
+DIV.scott A {
+	BORDER-RIGHT: #ddd 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #ddd 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #ddd 1px solid; COLOR: #88af3f; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #ddd 1px solid; TEXT-DECORATION: none
+}
+DIV.scott A:hover {
+	BORDER-RIGHT: #85bd1e 1px solid; BORDER-TOP: #85bd1e 1px solid; BORDER-LEFT: #85bd1e 1px solid; COLOR: #638425; BORDER-BOTTOM: #85bd1e 1px solid; BACKGROUND-COLOR: #f1ffd6
+}
+DIV.scott A:active {
+	BORDER-RIGHT: #85bd1e 1px solid; BORDER-TOP: #85bd1e 1px solid; BORDER-LEFT: #85bd1e 1px solid; COLOR: #638425; BORDER-BOTTOM: #85bd1e 1px solid; BACKGROUND-COLOR: #f1ffd6
+}
+DIV.scott SPAN.current {
+	BORDER-RIGHT: #b2e05d 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #b2e05d 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; BORDER-LEFT: #b2e05d 1px solid; COLOR: #fff; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #b2e05d 1px solid; BACKGROUND-COLOR: #b2e05d
+}
+DIV.scott SPAN.disabled {
+	BORDER-RIGHT: #f3f3f3 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #f3f3f3 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #f3f3f3 1px solid; COLOR: #ccc; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #f3f3f3 1px solid
+}
